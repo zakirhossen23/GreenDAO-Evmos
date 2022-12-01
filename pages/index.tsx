@@ -12,7 +12,7 @@ declare let window: any;
 export default function Welcome() {
   const router = useRouter();
   function letstartCLICK() {
-    if (window.ethereum == null=== "undefined") {
+    if (window.ethereum == null) {
       window.open(
         "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn",
         "_blank"
