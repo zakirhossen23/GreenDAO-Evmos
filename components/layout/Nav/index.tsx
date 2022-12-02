@@ -25,7 +25,7 @@ export function Nav(): JSX.Element {
       window.document.getElementById("withSign").style.display = "none";
       window.document.getElementById("installMetamask").style.display = "none";
     }
-    if (window.localStorage.getItem("login-type") === "Metamask") {
+    if (window.localStorage.getItem("login-type") === "metamask") {
       if (window.ethereum.selectedAddress != null ) {
         try {
           const Web3 = require("web3")
