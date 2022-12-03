@@ -122,7 +122,7 @@ export default function CreateIdeas() {
     console.log("======================>Creating Ideas");
     try {
      
-      // Creating Ideas in Rust Smart contract
+      // Creating Ideas in Smart contract
       await contract.create_ideas(JSON.stringify(createdObject),Number(id)).send({
         from:window.ethereum.selectedAddress,
         gasPrice: 100_000_000,

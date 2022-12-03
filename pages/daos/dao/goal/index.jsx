@@ -150,7 +150,7 @@ export default function Goal() {
         <div className={`${styles.title} gap-8 flex flex-col relative`}>
 
          <div>
-          <h1 className="text-moon-32 font-bold">{GoalURI.Title}</h1>
+          <h1 className="text-moon-32 font-bold"  style={{width: '78%'}}>{GoalURI.Title}</h1>
           <a  style={{ width: '135px', position: 'absolute', right: '1rem' , top: "0"}}  onClick={()=>{ window.history.back()}}>
             <Button iconleft style={{ width: '135px'}}>
               <ControlsChevronLeft />

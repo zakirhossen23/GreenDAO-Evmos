@@ -215,7 +215,7 @@ export default function GrantIdeas() {
       <div className={`${styles.container} flex flex-col items-center gap-8`}>
         <div className={`${styles.title} flex flex-col gap-2`}>
           <div style={{position:'relative'}} >
-            <h1 className="text-moon-32 font-bold pb-2">{IdeasURI.Title}</h1>
+            <h1 className="text-moon-32 font-bold pb-2"  style={{width: '78%'}}>{IdeasURI.Title}</h1>
             <a style={{ width: '135px', position: 'absolute', right: '1rem', top: "0" }} onClick={() => { window.history.back() }}>
               <Button iconleft style={{ width: '135px' }}>
                 <ControlsChevronLeft />

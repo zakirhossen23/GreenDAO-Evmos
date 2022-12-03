@@ -126,7 +126,7 @@ export default function CreateGoal() {
     console.log("======================>Creating Goal");
     try {
 
-      // Creating Goal in Rust Smart contract
+      // Creating Goal in Smart contract
       await contract.create_goal(JSON.stringify(createdObject),Number(id)).send({
         from:window.ethereum.selectedAddress,
         gasPrice: 100_000_000,
